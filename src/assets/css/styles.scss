@@ -1,0 +1,152 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: $white;
+  font-family: "Inter-Light", sans-serif; 
+  font-weight: 300; 
+  color: black;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+section {
+  padding: 4rem 4rem;
+}
+
+.sixteenhundo {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  max-width: 160rem;
+  margin: 8rem auto;
+  padding-left: clamp(2rem, 5vw, 4rem);
+  padding-right: clamp(2rem, 5vw, 4rem);
+}
+
+.center-col {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourteenfour {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  max-width: 144rem; 
+  margin: 8rem auto;
+  padding-left: clamp(2rem, 5vw, 4rem);
+  padding-right: clamp(2rem, 5vw, 4rem);
+}
+
+.tenhundo {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  max-width: 100rem;
+  margin: 8rem auto;
+  padding-left: clamp(2rem, 5vw, 4rem);
+  padding-right: clamp(2rem, 5vw, 4rem);
+}
+
+.narrow {
+  max-width: 60rem;
+}
+
+
+.wall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit:cover;
+}
+
+.align-left {
+  margin-right: auto;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+.heading1 {
+  font-family: Oswald;
+  font-size: 6rem;
+}
+
+.heading2 {
+  font-family: Oswald;
+  font-size: 3.6rem;
+}
+
+.display { 
+  font-size: clamp(2.4rem, 4.5vw, 3.2rem);
+  font-family: Inter-Thin, sans-serif;
+  margin-bottom: 4rem;
+}
+
+.label {
+  background-color: $green;
+  font-family: Oswald;
+  text-transform: uppercase;
+  padding: 1rem 1.6rem;
+  
+}
+.mark {
+  font-family: Druk-Heavy;
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+.copy { 
+  font-size: 2.1rem;
+  line-height: 2.8rem;
+}
+
+.copy-small { 
+  font-size: 1.6rem;
+}
+
+strong {
+  font-weight:600;
+}
+
+
+.bg-red {
+  background-color: $red; 
+}
+.bg-yellow {
+  background-color: $yellow; 
+}
+.bg-green {
+  background-color: $green; 
+}
+.bg-light-blue {
+  background-color: $light-blue; 
+}
+.bg-med-blue {
+  background-color: $med-blue; 
+}
+.bg-lavender {
+  background-color: $lavender; 
+}
+.bg-light-grey {
+  background-color: $light-grey; 
+}
+.bg-dark-grey {
+  background-color: $dark-grey; 
+}
+.bg-white {
+  background-color: $white; 
+}
+.bg-black {
+  background-color: $black;
+  color: white;  
+}

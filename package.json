@@ -1,0 +1,17 @@
+{
+  "name": "the-project-lab",
+
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.1.1",
+    "@gridsome/source-contentful": "^0.6.0",
+    "markdown-it": "^13.0.1"
+  }
+}
