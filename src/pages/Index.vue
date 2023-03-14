@@ -1,20 +1,46 @@
 <template>
   <HomeLayout>
 
-    <Header bg-color="var(--light-blue)" variation = "v2" colColor="var(--lavender)" border-color="var(--med-blue)" padding="8rem" bgImage="url('../../images/dall-e-2.png')">
+    <Header bg-color="var(--light-blue)" variation = "v2" colColor="var(--trans-blue)" border-color="var(--med-blue)" padding="8rem 4rem" bgImage="url('../../images/dall-e-2.png')">
       <template>Chris Clark<br />Loan Officer</template>
       <template #support>Lugging this fat cock uphill since 1986.</template>
       <template #context>
-        <ul class="contact-info">
-          <li>NMLS# 2383562</li>
-          <li><a href="tel:7704014199">770-401-4199</a></li>
-          <li><a href="mailto:CC@ybilending.com">CC@ybilending.com</a></li>
-        </ul>
+          <p class="copy"><strong>NMLS#</strong> 2383562</p>
+          <p class="copy-small"><a href="tel:7704014199">770-401-4199</a></p>
+          <p class="copy-small"><a href="mailto:CC@ybilending.com">CC@ybilending.com</a></p>
       </template>
     </Header>
+
+    <GridRow>
+      <GridItem>
+        <template><img src="../../static/images/icons/low-rates.png"></template>
+        <template #label><p class="copy-small">Rates as low as 3.74%</p></template>
+      </GridItem>
+      <GridItem>
+        <template><img src="../../static/images/icons/credit.png" ></template>
+        <template #label><p class="copy-small">Up to $5m in credit</p></template>
+      </GridItem>
+      <GridItem>
+        <template><img src="../../static/images/icons/fast-process.png"></template>
+        <template #label><p class="copy-small">Quick to close</p></template>
+      </GridItem>
+      <GridItem>
+        <template><img src="../../static/images/icons/long-term.png"></template>
+        <template #label><p class="copy-small">Long term loans available</p></template>
+      </GridItem>
+
+    </GridRow>
     
+    <!-- <div class="tenhundo">
+    <div class="grid">
+          <p><p>NMLS#</p>2383562</p>
+          <p><p>Phone Number</p><br /><a href="tel:7704014199">770-401-4199</a></p>
+          <p><p>email</p><br /><a href="mailto:CC@ybilending.com">CC@ybilending.com</a></p>
+        </div>
+    </div> -->
+
     <div class="fourteenfour">
-      <h2 class="align-left">For my Film Industry friends</h2>
+      <h2 class="align-left">For my Film Industry friends:</h2>
       <p class="align-left display">Please take a look below at these helpful links; they really helped with my home buying. </p>
       <ul class="copy align-left">     
         <li><a href="https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en_US&gl=US&pli=1">Genius Document Scanning Android</a ></li>
@@ -69,6 +95,12 @@ li {
   list-style-type: none;
 }
 
+.flex {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
 .grid {
   display: grid;
   max-width: 100rem;

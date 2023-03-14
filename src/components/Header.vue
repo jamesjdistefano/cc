@@ -90,7 +90,7 @@ export default {
     width: 150%; height: 150%;
     background-position: center;
     background-size: cover;
-    filter: blur(8px);
+    filter: blur(5px);
     z-index: 0;
   }
 

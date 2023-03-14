@@ -80,6 +80,7 @@ section {
 .heading1 {
   font-family: Oswald;
   font-size: 6rem;
+  line-height: 7.6rem;
 }
 
 .heading2 {
@@ -89,7 +90,7 @@ section {
 
 .display { 
   font-size: clamp(2.4rem, 4.5vw, 3.2rem);
-  font-family: Inter-Thin, sans-serif;
+  font-family: Inter-Light, sans-serif;
   margin-bottom: 4rem;
 }
 
