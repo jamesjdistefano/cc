@@ -5,11 +5,11 @@
     </slot>
 
     <div v-if="this.$slots.label">
-      <p class="description"><slot name="label">Grid Item Label</slot></p>
+      <slot name="label">Grid Item Label</slot>
     </div>
   </div>
 </template>
-
+<script></script>
 <style lang="scss" scoped>
 .grid-item {
   display: flex;
